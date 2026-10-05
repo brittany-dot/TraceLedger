@@ -1,0 +1,14 @@
+{
+  "release": "0.1.0",
+  "python_version": "3.13.5",
+  "jsonschema_version": "4.26.0",
+  "pytest_version": "9.0.2",
+  "openai_sdk_installed_version": null,
+  "local_automated_checks_passed": 84,
+  "live_api_model_trials_completed": 0,
+  "model_failure_rate": null,
+  "public_repository_url": null,
+  "fine_tuning_or_rl_runs": 0,
+  "archive_sha256_reverified": true,
+  "review_note": "Reference and mutation controls are authored tests, not measured model behavior; semantic validation and live SDK/service integration remain pending."
+}

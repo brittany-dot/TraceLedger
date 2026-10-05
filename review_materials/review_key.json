@@ -1,0 +1,92 @@
+{
+  "BLIND-001": {
+    "pair_id": "TL-PREF-REC-05",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-002": {
+    "pair_id": "TL-PREF-HAND-02",
+    "A": "rejected",
+    "B": "chosen"
+  },
+  "BLIND-003": {
+    "pair_id": "TL-PREF-HAND-05",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-004": {
+    "pair_id": "TL-PREF-REC-04",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-005": {
+    "pair_id": "TL-PREF-REC-01",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-006": {
+    "pair_id": "TL-PREF-CTX-01",
+    "A": "rejected",
+    "B": "chosen"
+  },
+  "BLIND-007": {
+    "pair_id": "TL-PREF-CTX-04",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-008": {
+    "pair_id": "TL-PREF-HAND-01",
+    "A": "rejected",
+    "B": "chosen"
+  },
+  "BLIND-009": {
+    "pair_id": "TL-PREF-CTX-06",
+    "A": "rejected",
+    "B": "chosen"
+  },
+  "BLIND-010": {
+    "pair_id": "TL-PREF-HAND-03",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-011": {
+    "pair_id": "TL-PREF-CTX-02",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-012": {
+    "pair_id": "TL-PREF-CTX-05",
+    "A": "rejected",
+    "B": "chosen"
+  },
+  "BLIND-013": {
+    "pair_id": "TL-PREF-REC-03",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-014": {
+    "pair_id": "TL-PREF-REC-02",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-015": {
+    "pair_id": "TL-PREF-HAND-04",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-016": {
+    "pair_id": "TL-PREF-HAND-06",
+    "A": "rejected",
+    "B": "chosen"
+  },
+  "BLIND-017": {
+    "pair_id": "TL-PREF-CTX-03",
+    "A": "chosen",
+    "B": "rejected"
+  },
+  "BLIND-018": {
+    "pair_id": "TL-PREF-REC-06",
+    "A": "chosen",
+    "B": "rejected"
+  }
+}

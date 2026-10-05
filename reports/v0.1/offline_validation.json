@@ -1,0 +1,27 @@
+{
+  "run_kind": "offline_harness_validation_NOT_model_evaluation",
+  "generated_utc": "2026-10-04T07:21:50.397130+00:00",
+  "python_version": "3.13.5",
+  "case_file_sha256": "02d9289a195e8169eff785a8a8b21d126242b75411707f2082e694aca53d42f8",
+  "reference_traces": 24,
+  "reference_traces_accepted": 24,
+  "mutated_outputs": 48,
+  "mutated_outputs_rejected": 48,
+  "live_api_runs": 0,
+  "observed_model_failure_rate": null,
+  "by_family": {
+    "CTX": {
+      "reference_traces": 8,
+      "accepted": 8
+    },
+    "HAND": {
+      "reference_traces": 8,
+      "accepted": 8
+    },
+    "REC": {
+      "reference_traces": 8,
+      "accepted": 8
+    }
+  },
+  "note": "Authored control traces and mechanical mutations share the design assumptions of the grader. This is not independent semantic calibration or evidence of model reliability."
+}

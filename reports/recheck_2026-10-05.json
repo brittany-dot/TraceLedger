@@ -1,0 +1,55 @@
+{
+  "package_revision": "v0.2-publication-prep-2026-10-05",
+  "code_version": "0.2.0",
+  "recorded_utc": "2026-10-05T05:17:58.731850+00:00",
+  "input_archive_sha256": "6415f0eee69b4ded0692f148727500196948124c7d9fa438627923bf0b10f08a",
+  "original_manifest_all_files_verified": true,
+  "local_recheck": {
+    "tests": 124,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 124,
+    "result_kind": "local engineering checks and authored controls; not live model results",
+    "evidence": "reports/recheck_2026-10-05.xml"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux",
+    "packages": {
+      "pytest": "9.0.2",
+      "jsonschema": "4.26.0",
+      "openai": null
+    }
+  },
+  "api_requests_executed_by_this_recheck": 0,
+  "benchmark_and_implementation": {
+    "runtime_tests_cases_preferences_configs_unchanged": true,
+    "files_checked": 19
+  },
+  "corpus_audit": "Carried forward unchanged; not re-audited in this packaging step.",
+  "live_model_measurement": {
+    "attempted_episodes": 0,
+    "completed_episodes": 0,
+    "api_requests": 0,
+    "intervention_effect": null
+  },
+  "publication": {
+    "public_repository_url": null,
+    "hosted_ci_executed": false,
+    "status": "prepared locally; GitHub connection and publication pending"
+  },
+  "publication_copy_changes": {
+    "private_transcript_message_identifiers_removed": true,
+    "raw_private_export_included": false,
+    "historical_application_documents_excluded": [
+      "docs/archive/Portfolio.pdf",
+      "docs/archive/APPLICATION_DRAFTS.md",
+      "docs/archive/Application_Drafts.docx"
+    ]
+  },
+  "pattern_scan": {
+    "credential_matches": 0,
+    "scope": "text files; selected API-token and private-key patterns only; not a comprehensive disclosure audit"
+  }
+}

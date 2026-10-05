@@ -1,0 +1,19 @@
+{
+  "kind": "synthetic_preference_control_check",
+  "pairs": 18,
+  "per_family": {
+    "CTX": 6,
+    "HAND": 6,
+    "REC": 6
+  },
+  "final_only_pairs": 14,
+  "next_decision_pairs": 4,
+  "chosen_contract_passes": 18,
+  "rejected_contract_failures": 18,
+  "reserved_validation_examples": 0,
+  "human_reviewed_pairs": 0,
+  "live_model_traces": 0,
+  "training_runs": 0,
+  "data_sha256": "6a3ba954f701e0468b78a2c89ad7045fdd3fd121014c5f0cbd3cdbd53d7a4b22",
+  "interpretation": "These checks confirm the authored contrasts against their generating rules; they are not independent preference validation, reward-model accuracy or live model measurements."
+}

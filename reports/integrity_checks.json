@@ -1,0 +1,22 @@
+{
+  "data/cases.jsonl": {
+    "unchanged_from_v0_1": true,
+    "sha256": "02d9289a195e8169eff785a8a8b21d126242b75411707f2082e694aca53d42f8"
+  },
+  "traceledger/schemas.py": {
+    "unchanged_from_v0_1": true,
+    "sha256": "04ad433c0f9880d72d27e5eb2bf97d6d12fdb0b6f73b1f8b9a4aa8dcd70b399b"
+  },
+  "traceledger/environment.py": {
+    "unchanged_from_v0_1": true,
+    "sha256": "9c67ef19675612b1aa790a282272386092d859c1dc91a560029d4ccce384225f"
+  },
+  "traceledger/grading.py": {
+    "unchanged_from_v0_1": true,
+    "sha256": "c146d1d3c086aa402019bce9282cc4f5cbda48d924c270ba17b5a67a23637550"
+  },
+  "reports/corpus_audit.json": {
+    "unchanged_from_v0_1": true,
+    "sha256": "3826efb06b33b7bea90009f1499c631fa6ee97ea3a755670d0770c9a2055ff11"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "release": "0.2.0",
+  "recorded_utc": "2026-10-04T07:51:19.601496+00:00",
+  "author": "Brittany R. Hollingsworth",
+  "development": "AI-assisted",
+  "local_validation": {
+    "tests": 124,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 124,
+    "original_checks_included": 84,
+    "added_checks": 40,
+    "result_kind": "offline engineering and authored controls, not model performance",
+    "evidence": "reports/test_results.xml"
+  },
+  "preference_data": {
+    "kind": "synthetic_preference_control_check",
+    "pairs": 18,
+    "per_family": {
+      "CTX": 6,
+      "HAND": 6,
+      "REC": 6
+    },
+    "final_only_pairs": 14,
+    "next_decision_pairs": 4,
+    "chosen_contract_passes": 18,
+    "rejected_contract_failures": 18,
+    "reserved_validation_examples": 0,
+    "human_reviewed_pairs": 0,
+    "live_model_traces": 0,
+    "training_runs": 0,
+    "data_sha256": "6a3ba954f701e0468b78a2c89ad7045fdd3fd121014c5f0cbd3cdbd53d7a4b22",
+    "interpretation": "These checks confirm the authored contrasts against their generating rules; they are not independent preference validation, reward-model accuracy or live model measurements."
+  },
+  "preserved_v0_1_protocol": {
+    "scenarios": 24,
+    "development": 18,
+    "reserved_validation": 6,
+    "repeats": 3,
+    "conditions": 2,
+    "planned_full_episodes": 144,
+    "original_cases_prompts_schemas_environment_graders_unchanged": true,
+    "evidence": "reports/integrity_checks.json"
+  },
+  "pilot": {
+    "scenarios": 6,
+    "episodes": 12,
+    "repeats": 1,
+    "split": "development only",
+    "model_selected": null,
+    "model_sdk_settings_frozen": false
+  },
+  "live_model_measurement": {
+    "attempted_episodes": 0,
+    "completed_episodes": 0,
+    "api_requests": 0,
+    "machine_pass_rate": null,
+    "semantic_pass_rate": null,
+    "intervention_effect": null,
+    "reason": "No live credential in this runtime; OpenAI SDK installation did not succeed."
+  },
+  "api_integration": {
+    "real_sdk_installed": false,
+    "sdk_service_validated": false,
+    "mocked_loop_checks": "included in local_validation"
+  },
+  "independent_review": {
+    "human_preference_annotations": 0,
+    "independently_reviewed_live_traces": 0,
+    "status": "pending"
+  },
+  "training": {
+    "fine_tuning_runs": 0,
+    "rl_runs": 0,
+    "rlaif_runs": 0,
+    "weight_updates": false
+  },
+  "publication": {
+    "public_repository_url": null,
+    "hosted_ci_executed": false,
+    "status": "source archive prepared; publication pending"
+  },
+  "scope": "The reserved validation scenarios are authored and visible. The v0.1 preference slice included HAND-07; no pristine training holdout is claimed. Archive audit carried forward unchanged, not repeated in this revision."
+}

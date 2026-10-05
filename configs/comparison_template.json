@@ -1,0 +1,17 @@
+{
+  "status": "template_not_a_frozen_live_plan",
+  "model_requested": null,
+  "sdk_version": null,
+  "monetary_budget_authorized": null,
+  "families": ["CTX", "HAND", "REC"],
+  "development_scenarios": 18,
+  "reserved_validation_scenarios": 6,
+  "repeats_per_scenario": 3,
+  "conditions": ["baseline", "intervention"],
+  "planned_episodes": 144,
+  "max_turns_per_episode": 12,
+  "default_max_api_create_calls": 1728,
+  "pilot_case_ids": ["CTX-01", "CTX-05", "HAND-01", "HAND-02", "REC-01", "REC-05"],
+  "pilot_episodes": 12,
+  "note": "Use the freeze command after selecting model/settings and installing the SDK. Request ceilings are not dollar budgets. No live trials have been run."
+}

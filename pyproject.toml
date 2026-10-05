@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traceledger-evals"
+version = "0.2.0"
+description = "Source-grounded agent workflow evals with explicit state and failure injection"
+requires-python = ">=3.10"
+dependencies = ["jsonschema>=4.20,<5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+live = ["openai>=1.68"]
+
+[tool.setuptools.packages.find]
+include = ["traceledger*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

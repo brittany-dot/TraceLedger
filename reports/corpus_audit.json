@@ -1,0 +1,33 @@
+{
+  "audit_date_utc": "2026-10-04T07:12:30.273019+00:00",
+  "input_alias": "archival-snapshot-A",
+  "input_sha256": "a4437a7d1324840db39a6810bfa46bd23ec7f877b21bf992ab151207f3857cdc",
+  "input_bytes": 137911419,
+  "input_decimal_mb": 137.911419,
+  "conversation_records": 1656,
+  "unique_conversation_ids": 1656,
+  "non_null_message_nodes": 43896,
+  "unique_message_ids": 43893,
+  "duplicate_message_id_occurrences": 3,
+  "duplicate_id_payload_differences": 3,
+  "null_message_nodes": 1656,
+  "missing_message_ids": 0,
+  "unique_message_role_counts": {
+    "system": 2519,
+    "user": 16933,
+    "assistant": 20485,
+    "tool": 3956
+  },
+  "user_active_utc_days": 180,
+  "earliest_message_utc": "2024-11-07T04:25:58.496560+00:00",
+  "latest_message_utc": "2025-05-05T14:59:57.567072+00:00",
+  "missing_message_timestamps": 3205,
+  "string_content_utf8_bytes": 39339412,
+  "count_scope": "All exported mapping branches; unique message IDs; roles include user/assistant/tool/system.",
+  "limitations": [
+    "Archive coverage, not lifetime/current usage or number of formal evaluations.",
+    "JSON bytes include metadata; referenced media bytes are not included.",
+    "No inference about the reported 1.89 GB seven-day export-size increase.",
+    "One snapshot only; other files are not assumed to be nonoverlapping."
+  ]
+}

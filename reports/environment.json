@@ -1,0 +1,9 @@
+{
+  "python": "3.13.5",
+  "packages": {
+    "jsonschema": "4.26.0",
+    "pytest": "9.0.2",
+    "openai": null
+  },
+  "sdk_installation": "pip install did not find a usable openai distribution in this execution environment; direct public package-metadata retrieval also failed. Live integration remains unverified."
+}
