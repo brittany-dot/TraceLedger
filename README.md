@@ -20,7 +20,7 @@ uses tools correctly, and reports its state honestly. TraceLedger translates tha
 three failure taxonomies, a 24-scenario synthetic benchmark, executable grading rules, and an
 OpenAI Responses API agent interface. Live SDK/service integration and model measurements remain unverified.
 
-## What is measuredâ€”and what is not
+## What is measured—and what is not
 
 | Item | Status in this release |
 |---|---|
@@ -58,13 +58,13 @@ The optional `live` dependency separates SDK installation from offline reproduci
 
 ## The three evaluation families
 
-**CTX â€” context and memory provenance.** Eight scenarios cover superseded approvals, missing decisions,
+**CTX — context and memory provenance.** Eight scenarios cover superseded approvals, missing decisions,
 wrong-project collisions, primary-vs-summary conflict, revoked decisions and access denial.
 
-**HAND â€” handoff ownership and completion.** Eight scenarios distinguish acknowledgement, queueing,
+**HAND — handoff ownership and completion.** Eight scenarios distinguish acknowledgement, queueing,
 unknown execution, verified completion, stale artifacts and uncertain writes.
 
-**REC â€” instruction preservation under partial failure.** Eight scenarios test retry limits, denied
+**REC — instruction preservation under partial failure.** Eight scenarios test retry limits, denied
 sources, missing optional evidence, schema faults and truthful reporting after a failed write.
 
 The tools simulate worker states and read failures, and perform actual local artifact writes and
@@ -147,14 +147,14 @@ and pending human-review status. Four examples contrast a next tool action with 
 or a forbidden retry. Their inputs do not include future tool results.
 
 `review_materials/blinded_preferences.jsonl` hides the intended labels and randomizes A/B order.
-Give that fileâ€”not `review_key.json`â€”to an independent reviewer. Human feedback has not yet been
+Give that file—not `review_key.json`—to an independent reviewer. Human feedback has not yet been
 collected. `docs/TRAINING_SIGNAL.md` explains proposed use, label quality and leakage boundaries.
 
 ## Corpus scope
 
 The carried-forward audit of one private archival snapshot reports **1,656 conversations, 43,893
 unique message IDs, 180 user-active UTC days and 137,911,419 JSON bytes**. The records span
-November 7, 2024â€“May 5, 2025, include branches and non-user roles, and have documented missing
+November 7, 2024–May 5, 2025, include branches and non-user roles, and have documented missing
 timestamps and duplicate IDs. These are archive inventory counts, not 1,656 formal evaluations.
 The raw export is excluded. The separately reported approximately 1.9 GB weekly export-size change
 is not verified by this audit. The v0.1 audit JSON is retained unchanged.
@@ -166,7 +166,7 @@ score highly. A null or negative intervention effect is a valid finding, not a r
 The fixed path checks do not recognize every semantically equivalent plan. The machine grader does
 not fully grade explanation quality. Reference traces, contrasts and graders share authorship, so
 agreement is not independent validation. The six validation scenarios are visible, same-author
-reserved scenariosâ€”not a secret or independently sourced holdout. The old v0.1 preference examples
+reserved scenarios—not a secret or independently sourced holdout. The old v0.1 preference examples
 included HAND-07; they are archived, excluded from the new training-signal slice and cannot justify
 claiming a pristine holdout for a future trained model.
 
@@ -207,4 +207,6 @@ Official sources checked October 4, 2026:
 This project uses local Python graders, not a hosted Evals or fine-tuning integration. Current service
 availability and supported model settings must be checked during the live smoke test. Code, data
 construction and documentation were produced with AI assistance; independent review is not implied.
+
+
 
